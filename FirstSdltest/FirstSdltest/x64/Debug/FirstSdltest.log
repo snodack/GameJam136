@@ -1,0 +1,5 @@
+﻿D:\Program Files (x86)\vs19\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (FirstSdltest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  CObject.cpp
+D:\Jam136\FirstSdltest\FirstSdltest\CObject.cpp(13,68): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Jam136\FirstSdltest\FirstSdltest\CObject.cpp(13,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  FirstSdltest.vcxproj -> D:\Jam136\FirstSdltest\x64\Debug\GameJam.exe
