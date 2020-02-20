@@ -1,5 +1,11 @@
 ﻿D:\Program Files (x86)\vs19\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (FirstSdltest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  CObject.cpp
-D:\Jam136\FirstSdltest\FirstSdltest\CObject.cpp(13,68): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Jam136\FirstSdltest\FirstSdltest\CObject.cpp(13,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  FirstSdltest.vcxproj -> D:\Jam136\FirstSdltest\x64\Debug\GameJam.exe
+  Boat.cpp
+  CWorld.cpp
+D:\Jam136\GameJam136\FirstSdltest\FirstSdltest\CWorld.cpp(32,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Jam136\GameJam136\FirstSdltest\FirstSdltest\CWorld.cpp(42,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Diver.cpp
+  main.cpp
+D:\Jam136\GameJam136\FirstSdltest\FirstSdltest\main.cpp(11,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Jam136\GameJam136\FirstSdltest\FirstSdltest\main.cpp(21,27): warning C4356: 'CObject::sprite': static data member cannot be initialized via derived class
+  Generating Code...
+  FirstSdltest.vcxproj -> D:\Jam136\GameJam136\FirstSdltest\x64\Debug\GameJam.exe

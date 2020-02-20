@@ -19,7 +19,10 @@ void Boat::processInput() {
 void Boat::update(float delta) {
     
 }
-
 std::string Boat::get_sprite_id() {
-    return sprite_id;
+    return "boat";
 }
+void Boat::down_velocity() {
+
+}
+

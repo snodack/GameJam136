@@ -2,9 +2,12 @@
 #include "CObject.h"
 class Boat : public CObject
 {
-	const float SPEED= 2;
+public:
+	float SPEED = 200;
 	virtual void processInput();
 	virtual void update(float delta = 0.F);
-	virtual  std::string get_sprite_id();
+	virtual std::string get_sprite_id();
+protected:
+	virtual void down_velocity();
 };
 

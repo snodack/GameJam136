@@ -10,6 +10,6 @@ CObject::~CObject(){
 }
 void CObject::draw(SDL_Renderer* pRenderer)
 {
-	STextureManager::Instance()->draw(sprite_id, position->x, position->y, 64, 64, pRenderer, right?SDL_FLIP_HORIZONTAL: SDL_FLIP_NONE);
+	STextureManager::Instance()->draw(get_sprite_id(), position->x, position->y, 64, 64, pRenderer, right?SDL_FLIP_HORIZONTAL: SDL_FLIP_NONE);
+	down_velocity();
 }
-

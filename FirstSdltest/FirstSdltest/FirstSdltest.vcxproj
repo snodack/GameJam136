@@ -88,12 +88,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Jam136\Mytestgame\SDL2_Image\include;D:\Jam136\Mytestgame\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Jam136\GameJam136\Mytestgame\SDL2_Image\include;D:\Jam136\GameJam136\Mytestgame\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Jam136\Mytestgame\SDL2_Image\lib\x64;D:\Jam136\Mytestgame\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Jam136\GameJam136\Mytestgame\SDL2\lib\x64;D:\Jam136\GameJam136\Mytestgame\SDL2_Image\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -103,12 +103,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Jam136\Mytestgame\SDL2_Image\include;D:\Jam136\Mytestgame\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Jam136\GameJam136\Mytestgame\SDL2_Image\include;D:\Jam136\GameJam136\Mytestgame\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Jam136\Mytestgame\SDL2_Image\lib\x64;D:\Jam136\Mytestgame\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Jam136\GameJam136\Mytestgame\SDL2\lib\x64;D:\Jam136\GameJam136\Mytestgame\SDL2_Image\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -148,6 +148,7 @@
     <ClCompile Include="Boat.cpp" />
     <ClCompile Include="CObject.cpp" />
     <ClCompile Include="CWorld.cpp" />
+    <ClCompile Include="Diver.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="STextureManager.cpp" />
     <ClCompile Include="Vector2D.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Boat.h" />
     <ClInclude Include="CObject.h" />
     <ClInclude Include="CWorld.h" />
+    <ClInclude Include="Diver.h" />
     <ClInclude Include="STextureManager.h" />
     <ClInclude Include="Vector2D.h" />
   </ItemGroup>
